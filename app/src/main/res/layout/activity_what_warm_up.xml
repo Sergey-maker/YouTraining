@@ -36,7 +36,6 @@
                     >
 
                     <TextView
-                        android:id="@+id/textView1"
                         android:layout_width="368dp"
                         android:layout_height="match_parent"
                         android:text="@string/WhyUNeedWarmUP"
@@ -50,7 +49,6 @@
                         android:textColor="@color/black" />
 
                     <TextView
-                        android:id="@+id/textView3"
                         android:layout_width="368dp"
                         android:layout_height="match_parent"
                         android:text="Разминка и растяжка, бывает :"

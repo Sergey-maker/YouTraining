@@ -28,7 +28,7 @@ public class WarmUP2 extends AppCompatActivity {
     }
 
     public void NextPage3(){
-        Intent intent1 = new Intent(this,WarmUP4.class);
+        Intent intent1 = new Intent(this,WarmUP3.class);
         startActivity(intent1);
     }
 }

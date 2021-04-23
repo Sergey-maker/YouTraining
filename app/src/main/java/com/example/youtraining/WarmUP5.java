@@ -10,6 +10,7 @@ import android.widget.Button;
 public class WarmUP5 extends AppCompatActivity {
 
     private Button MainMenuStrongActivity;
+    private Button MainMenus;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -24,10 +25,24 @@ public class WarmUP5 extends AppCompatActivity {
                 MainPage();
             }
         });
+
+        MainMenus = (Button) findViewById(R.id.MainMenus);
+        MainMenus.setOnClickListener(new View.OnClickListener() {
+
+            @Override
+            public void onClick(View view){
+                mainMenu();
+            }
+        });
     }
 
     public void MainPage(){
         Intent intent = new Intent(this,StrongTreaningMain.class);
+        startActivity(intent);
+    }
+
+    public void mainMenu(){
+        Intent intent = new Intent(this,MainActivity.class);
         startActivity(intent);
     }
 }

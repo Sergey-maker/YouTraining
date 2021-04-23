@@ -8,7 +8,6 @@
 
 
     <TextView
-        android:id="@+id/MainTextStrong"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="32dp"
@@ -37,7 +36,6 @@
             android:orientation="vertical">
 
             <TextView
-                android:id="@+id/textView3"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
@@ -56,7 +54,6 @@
                 android:layout_weight="1"/>
 
             <TextView
-                android:id="@+id/textView4"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
@@ -67,25 +64,24 @@
                 />
 
             <Button
-                android:id="@+id/button2"
+                android:id="@+id/BenchButton"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Жим лежа" />
 
             <Button
-                android:id="@+id/button3"
+                android:id="@+id/DeadLift"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Становая тяга" />
 
             <Button
-                android:id="@+id/button4"
+                android:id="@+id/SquatsWithABarbell"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Приседания со штангой" />
 
             <TextView
-                android:id="@+id/textView5"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
@@ -96,52 +92,18 @@
                 />
 
             <Button
-                android:id="@+id/button5"
+                android:id="@+id/PullUps"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Подтягивания" />
 
             <Button
-                android:id="@+id/button6"
+                android:id="@+id/WeightliftingInABend"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Тяга штанги в наклоне" />
 
             <TextView
-                android:id="@+id/textView6"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="Изолирующие упражнения для спины"
-                android:gravity="center"
-                android:textColor="@color/black"
-                />
-
-            <TextView
-                android:id="@+id/textView7"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="На широчайшую мышцу"
-                android:gravity="center"
-                android:textColor="@color/black"/>
-
-            <Button
-                android:id="@+id/button7"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="Тяга блока вниз" />
-
-            <Button
-                android:id="@+id/button8"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="Гребля на тренажере" />
-
-            <TextView
-                android:id="@+id/textView8"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
@@ -150,28 +112,20 @@
                 android:textColor="@color/black"/>
 
             <Button
-                android:id="@+id/button9"
+                android:id="@+id/BlockPullToTheSideWithBothHands"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:text="Тяга блока в сторону двумя руками" />
 
             <Button
-                android:id="@+id/button10"
+                android:id="@+id/StandingUpright"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:text="Шраги" />
 
-            <Button
-                android:id="@+id/button11"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="Подъем плеч с гантелями" />
-
             <TextView
-                android:id="@+id/textView9"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
@@ -180,28 +134,20 @@
                 android:textColor="@color/black"/>
 
             <Button
-                android:id="@+id/button12"
+                android:id="@+id/Hyperextension"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:text="Гиперэкстензия" />
 
             <Button
-                android:id="@+id/button13"
+                android:id="@+id/BarbellBends"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:text="Наклоны со штангой" />
 
-            <Button
-                android:id="@+id/button14"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="Мертвая тяга" />
-
             <TextView
-                android:id="@+id/textView10"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
@@ -210,35 +156,27 @@
                 android:textColor="@color/black"/>
 
             <Button
-                android:id="@+id/button15"
+                android:id="@+id/PullingBehindTheHeadOnAHighBlock"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:text="Тяга за голову на высоком блоке" />
 
             <Button
-                android:id="@+id/button16"
+                android:id="@+id/WaistBlockStretchInSitting"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:text="Тяга блока к поясу сидя" />
 
             <Button
-                android:id="@+id/button17"
+                android:id="@+id/UpperBlockToChestStretch"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:text="Тяга верхнего блока к груди" />
 
-            <Button
-                android:id="@+id/button18"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="Тяга за голову на высоком блоке" />
-
             <TextView
-                android:id="@+id/textView11"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
@@ -247,63 +185,48 @@
                 android:textColor="@color/black"/>
 
             <Button
-                android:id="@+id/button19"
+                android:id="@+id/DumbbellSquats"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:text="Приседания с гантелями" />
 
             <Button
-                android:id="@+id/button20"
+                android:id="@+id/DumbbellLunges"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="Выпады с гантелями/штангой" />
+                android:text="Выпады с гантелями" />
 
             <Button
-                android:id="@+id/button21"
+                android:id="@+id/GakkSquats"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="Приседания с гантелями" />
+                android:text="Гакк-приседания" />
 
             <Button
-                android:id="@+id/button22"
+                android:id="@+id/LegExtensions"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="Гакк-приседы" />
+                android:text="Разгибания ног в тренажре" />
 
             <Button
-                android:id="@+id/button23"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="Разгибания ног" />
-
-            <Button
-                android:id="@+id/button24"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="Приседы у стены" />
-
-            <Button
-                android:id="@+id/button25"
+                android:id="@+id/LegPressOnExerciseMachine"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:text="Жим ногами на тренажере" />
 
             <Button
-                android:id="@+id/button26"
+                android:id="@+id/SpreadingLegsOnTheTreadmill"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:text="Разведение ног на тренажере" />
 
             <TextView
-                android:id="@+id/textView13"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Упражнения на бицепс"
@@ -313,30 +236,27 @@
 
 
             <Button
-                android:id="@+id/button27"
+                android:id="@+id/StandingBarbellBend"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="Сгибание со штангой стоя"/>
+                android:text="Сгибание рук со штангой стоя"/>
 
             <Button
-                android:id="@+id/button28"
+                android:id="@+id/ScottScampi"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:text="Сгибания рук на скамие скотта" />
 
             <Button
-                android:id="@+id/button29"
+                android:id="@+id/DumbbellLifting"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:text="Подъем гантелей" />
 
             <TextView
-
-
-                android:id="@+id/textViebug31"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
@@ -346,35 +266,35 @@
                 />
 
             <Button
-                android:id="@+id/button30"
+                android:id="@+id/BenchPressNarrowGrip"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:text="Жим лежа узким хватом" />
 
             <Button
-                android:id="@+id/button31"
+                android:id="@+id/FrenchBenchPress"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:text="Французский жим" />
 
             <Button
-                android:id="@+id/button33"
+                android:id="@+id/ExtensionOneArm"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:text="Разгибание одной руки с гантелью из-за головы" />
 
             <Button
-                android:id="@+id/button34"
+                android:id="@+id/ArmCurlsWithDumbbellsDown"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:text="Разгибание рук с гантелями лежа" />
 
             <Button
-                android:id="@+id/button35"
+                android:id="@+id/BenchPressUP"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
@@ -389,21 +309,14 @@
                 />
 
             <Button
-                android:id="@+id/button36"
+                android:id="@+id/StandingBarbellPress"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:text="Жим штанги стоя" />
 
             <Button
-                android:id="@+id/button37"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="Армейский жим" />
-
-            <Button
-                android:id="@+id/button38"
+                android:id="@+id/PulingBarToTheChin"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"

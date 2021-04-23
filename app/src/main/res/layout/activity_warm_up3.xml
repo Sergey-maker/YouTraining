@@ -15,7 +15,6 @@
         app:layout_constraintTop_toTopOf="parent">
 
         <TextView
-            android:id="@+id/TextView15"
             android:layout_width="246dp"
             android:layout_height="261dp"
             android:layout_alignParentStart="true"
@@ -82,7 +81,6 @@
         app:srcCompat="@drawable/warmup8" />
 
     <ImageView
-        android:id="@+id/imageView6"
         android:layout_width="153dp"
         android:layout_height="200dp"
         android:layout_marginBottom="92dp"

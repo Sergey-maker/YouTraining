@@ -9,13 +9,12 @@
 
     <RelativeLayout
         android:id="@+id/relativeLayout2"
-        android:layout_width="259dp"
-        android:layout_height="664dp"
+        android:layout_width="256dp"
+        android:layout_height="549dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
         <TextView
-            android:id="@+id/TextView15"
             android:layout_width="246dp"
             android:layout_height="261dp"
             android:layout_alignParentStart="true"
@@ -40,69 +39,85 @@
             android:textColor="@color/black" />
 
         <TextView
-            android:layout_width="246dp"
-            android:layout_height="204dp"
+            android:layout_width="241dp"
+            android:layout_height="95dp"
             android:layout_alignParentStart="true"
             android:layout_alignParentLeft="true"
             android:layout_alignParentBottom="true"
-            android:layout_marginStart="15dp"
-            android:layout_marginLeft="15dp"
-            android:layout_marginBottom="0dp"
+            android:layout_marginStart="17dp"
+            android:layout_marginLeft="17dp"
+            android:layout_marginBottom="1dp"
             android:text="@string/WarmUP53"
             android:textColor="@color/black" />
+
+        <ImageView
+            android:layout_width="235dp"
+            android:layout_height="153dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="49dp"
+            android:layout_marginEnd="2dp"
+            android:layout_marginRight="2dp"
+            app:srcCompat="@drawable/warmup15" />
 
 
     </RelativeLayout>
 
     <Button
         android:id="@+id/MainMenuStrongActivity"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="24dp"
+        android:layout_width="333dp"
+        android:layout_height="58dp"
+        android:layout_marginTop="51dp"
+        android:layout_marginBottom="80dp"
         android:gravity="center"
         android:text="Главное меню силовых тренировок"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
-        app:layout_constraintStart_toStartOf="parent" />
-
-    <ImageView
-        android:id="@+id/imageView7"
-        android:layout_width="153dp"
-        android:layout_height="144dp"
-        app:layout_constraintBottom_toTopOf="@+id/imageView8"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toEndOf="@+id/relativeLayout2"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/warmup15" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/relativeLayout2"
+        app:layout_constraintVertical_bias="0.0" />
 
     <ImageView
         android:id="@+id/imageView8"
-        android:layout_width="150dp"
-        android:layout_height="139dp"
-        android:layout_marginTop="83dp"
-        android:layout_marginBottom="282dp"
-        app:layout_constraintBottom_toTopOf="@+id/NextPageWarmUP"
+        android:layout_width="162dp"
+        android:layout_height="165dp"
+        android:layout_marginStart="254dp"
+        android:layout_marginLeft="254dp"
+        android:layout_marginTop="248dp"
+        app:layout_constraintBottom_toTopOf="@+id/relativeLayout2"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/relativeLayout2"
-        app:layout_constraintTop_toBottomOf="@+id/imageView7"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.016"
         app:srcCompat="@drawable/warmup14" />
 
     <ImageView
-        android:id="@+id/imageView9"
-        android:layout_width="148dp"
-        android:layout_height="159dp"
-        android:layout_marginStart="1dp"
-        android:layout_marginLeft="1dp"
-        android:layout_marginTop="82dp"
-        android:layout_marginEnd="3dp"
-        android:layout_marginRight="3dp"
-        android:layout_marginBottom="46dp"
-        app:layout_constraintBottom_toTopOf="@+id/NextPageWarmUP"
+        android:layout_width="146dp"
+        android:layout_height="96dp"
+        android:layout_marginStart="2dp"
+        android:layout_marginLeft="2dp"
+        android:layout_marginTop="38dp"
+        android:layout_marginEnd="7dp"
+        android:layout_marginRight="7dp"
+        android:layout_marginBottom="184dp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/relativeLayout2"
         app:layout_constraintTop_toBottomOf="@+id/imageView8"
         app:srcCompat="@drawable/warmup16" />
+
+    <Button
+        android:id="@+id/MainMenus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="32dp"
+        android:gravity="center"
+        android:text="Главное меню"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/MainMenuStrongActivity" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
